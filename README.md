@@ -1,6 +1,6 @@
 # CourseManager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4, Node version v12.16.1 and NPM 6.13.4.
 
 ## Development server
 
