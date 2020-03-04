@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-    <a href="#" class="navbar-brand">
+    <a [routerLink]="['/courses']" class="navbar-brand">
         Course Manager
     </a>
 
@@ -12,11 +12,19 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
         <ul class="navbar-nav mr-auto">
+
             <li class="nav-item">
-                <a href="#" class="nav-link">Courses</a>
+
+                <a [routerLink]="['/courses']" routerLinkActive="active" class="nav-link">
+                    Courses
+                </a>
+
             </li>
+
         </ul>
+
     </div>
 
 </nav>
